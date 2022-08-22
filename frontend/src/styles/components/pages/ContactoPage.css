@@ -1,0 +1,113 @@
+/*contacto*/
+.contacto {
+    display: grid;
+    float: left;
+    grid-template-columns: 2;
+    grid-auto-flow: column;
+    padding-left: 20%;
+    padding-top: 5%;
+  }
+
+  .contacto div {
+    width: 100%;
+  }
+
+  .formulario p {
+    display: flex;
+  }
+
+  .formulario p label{
+    min-width: 80px;
+  }
+
+  .datos{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .datos ul li {
+    font-size: 14px;
+    list-style: none;
+  }
+  .datos ul li i {
+    color: #0883ed;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+  .datos a {
+    font-family: "Font Awesome 6 Free";
+    color: #0883ed;
+    
+  }
+
+  .formulario p label {
+    display: flex;
+    align-items: center;
+  }
+
+  .formulario p:nth-child(4) {
+align-items: start;
+  }
+  .formulario textarea {
+    resize: none;
+    height: 120px;
+  }
+  .formulario textarea:hover{
+    transition: 03ms;
+    background-color: blue;
+  }
+
+  .formulario input [type="submit"]  {
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    cursor: pointer;
+  }
+  .formulario input:hover{
+    transition: 03ms;
+    background-color: blue;
+
+  }
+  .formulario input [type="text"]  {
+    font-size: 16px;
+    background-color: #0883ed;
+    width: auto;
+  }
+  
+  @media only screen and (max-width: 875px) {
+    .contacto {
+      display: block;
+      padding: 2%;
+    }
+    .datos ul li {
+      font-size: 14px;
+      font-weight: bold;
+      list-style: none;
+      
+    }
+    .datos a {
+      font-family: "Font Awesome 6 Free";
+      color: #0883ed;
+      display: block;
+      
+    }
+
+    .formulario p label{
+      min-width: 50px;
+    }
+    .formulario p {
+      display: block ;
+    }
+    .formulario textarea {
+      resize: none;
+      height: auto;
+      width: auto;
+    }
+  }
+  .mapa{
+    padding-left: 2% ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  /*fin contacto*/

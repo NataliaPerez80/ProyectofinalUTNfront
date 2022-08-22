@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  background-color: #f1f1f1;
+}
+.container-logo {
+  background-color: mintcream;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: center;
+}
+.container-logo:hover {
+  cursor: pointer;
+  background-color: #0883ed;
+  transition: 3s;
+}
+.holder {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 15%;
+}
+/*button*/
+.button {
+  background-color: #0883ed;
+  border-radius: 10px;
+  color: mintcream;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button, input,textarea  {
+  background-color: #0883ed;
+  border-radius: 10px;
+  color: mintcream;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: mintcream;
+  width: auto;
+  
+}
+.button:hover {
+  transition: 3ms;
+  background-color:blue ;
+  
+}
+  /*fin button*/

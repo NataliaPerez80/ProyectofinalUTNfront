@@ -1,0 +1,53 @@
+/*staff*/
+.staff {
+    display:flex
+  }
+  .iso{
+    width: 3%;
+    height: 3%;
+  }
+  .historia {
+    padding-right: 2%;
+  }
+  .persona {
+    border: 1px solid #0883ed;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center ;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: mintcream;
+    
+  }
+  
+  .persona:hover{
+    transition: 3s;
+    background-color: #0883ed;
+    color: mintcream;
+    cursor: pointer;
+  
+  }
+  @media only screen and (max-width: 1086px) {
+    .staff {
+      display:block;
+    }
+    .persona {
+      margin-top: 5%;
+      padding-top: 2%;
+      width: auto;
+    }
+    .iso{
+      width: 6%;
+    height: 6%;
+  
+    }
+  }
+  @media only screen and (max-width: 875px) {
+    .iso{
+    width: 8%;
+    height: 8%;
+  }
+  }
+  
+  /*fin staff*/
+  

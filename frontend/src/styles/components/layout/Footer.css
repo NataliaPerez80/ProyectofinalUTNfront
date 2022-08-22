@@ -1,0 +1,67 @@
+/*footer*/
+
+.container-footer {
+    background-color: mintcream;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-footer:hover {
+    cursor: pointer;
+    background-color: #0883ed;
+    transition: 3s;
+  }
+  
+  .columnas {
+    background-color: #0883ed;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    display: inline-flexbox;
+    -webkit-columns: 100px 2;
+    -moz-columns: 100px 2;
+    columns: 100px 2;
+    padding-left: 30%;
+    padding-right: 30%;
+  
+  }
+  
+  .columnas .links a {
+    float: center;
+    display: block;
+    margin-left: 0%;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .columnas .links a:hover {
+    background-color: mintcream;
+    color: blue;
+    cursor: pointer;
+  
+  }
+  
+  .container-redes {
+    background-color: #0883ed;
+    text-align: center;
+    justify-items: auto;
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
+  
+  .container-redes a {
+    padding: 1%;
+    color: mintcream;
+  }
+  
+  .container-redes a:hover {
+    background-color: mintcream;
+    color: blue;
+    cursor: pointer;
+  }
+  
+  /*fin footer*/
