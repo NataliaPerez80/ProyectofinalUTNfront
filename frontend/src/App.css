@@ -61,4 +61,38 @@ body {
   background-color:blue ;
   
 }
+
+
   /*fin button*/
+  .textoblog {
+    text-align: justify;
+    font-size: 18px;
+    font-stretch: expanded;
+  }
+
+  @media only screen and (max-width: 1132px) {
+    .novedades img {
+      width: 100%;
+    }
+    .textoblog {
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 875px) {
+    .novedades img {
+      width: 100%;
+    }
+    .textoblog {
+      font-size: 16px;
+    }
+  }
+ 
+
+  @media only screen and (max-width: 480px) {
+    .novedades img {
+      width: 100%;
+    }
+    .textoblog {
+      font-size: 16px;
+    }
+  }
